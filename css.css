@@ -1,0 +1,18 @@
+body {
+	margin-top: 10%;
+	margin-left: 25%;
+}
+.g {
+	background: #f47920;
+	float: left;
+	border: 1px solid #f47920;
+	border-radius: 1rem;
+	padding: 10%;
+	margin: 0.2%;
+}
+.r2 {
+	clear: left;
+}
+.r3 {
+	clear: left;
+}
