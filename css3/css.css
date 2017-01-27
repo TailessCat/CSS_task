@@ -1,0 +1,27 @@
+body {
+	background: #68cdd5;
+	max-width: 600px;
+	margin: 0 auto;
+}
+.back {
+	margin: 3%;
+}
+.logo {
+	margin: 5% auto;
+	text-align: center;
+}
+p {
+	margin: 10%;
+	max-width: 500px;
+	text-align: center;
+	color: white;
+	font-family: "Microsoft YaHei";
+}
+.contact1 {
+	float: left;
+	margin-left: 5%;
+}
+.contact2 {
+	float: right;
+	margin-right: 5%;
+}
