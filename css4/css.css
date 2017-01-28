@@ -1,0 +1,81 @@
+body {
+	max-width: 1000rem;
+	margin: 0 auto;
+	background: #F5F5F5;
+}
+.holder {
+	background: #5ac0ce;
+	color: #5ac0ce;
+	height: 500px;
+
+}
+
+.header {
+	margin-top: 0;
+	background: #5ac0ce;
+	font-family: "Microsoft YaHei";
+	text-align: center;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	color: white;
+	width: 100%;
+	position: fixed top;
+	z-index: 1;
+}
+.close {
+	float: left;
+	cursor: pointer;
+	padding-left: 3%;
+}
+.sign_in {
+	display: inline-block;
+	font-size: 120%;
+	cursor: default;
+}
+.sign_up {
+	float: right;	
+	cursor: pointer;
+	margin-right: 3%;
+}
+input {
+	text-align: left;
+	display: inline-block;
+	width: 100%;
+	font-size: 200%;
+	outline: none;
+	border: white;
+	
+}
+.input1 {
+	background:url("登陆_02.png") no-repeat  left;
+	background-size: contain;
+	padding-left: 43px; 
+}
+.input2 {
+	background:url("登陆_05.png") no-repeat  left;
+	background-size: contain;
+	padding-left: 43px; 
+}
+.account {
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+.password {
+	margin-bottom: 1%;
+}
+button {
+	background: #5ac0ce;
+	border: 1px #5ac0ce solid;
+	display: inline-block;
+	width: 100%;
+	padding: 1%;
+	font-size: 120%;
+	color: white;
+	cursor: pointer;
+	font-family: "Microsoft YaHei";
+}
+p {
+	float: right;
+	color: #5ac0ce;
+	cursor: pointer;
+}
