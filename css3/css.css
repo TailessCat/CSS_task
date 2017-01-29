@@ -26,3 +26,6 @@ p {
 	float: right;
 	margin-right: 5%;
 }
+img {
+	max-width: 100%;
+}
