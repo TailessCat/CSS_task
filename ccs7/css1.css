@@ -1,0 +1,81 @@
+.mybody {
+	background: #f0f0f0;
+	height: auto;
+	font-family: "Microsoft YaHei";
+	cursor: default;
+}
+header {
+	background: #29bde0;
+	padding: 1% 0;
+	position: fixed top;
+}
+.white {
+	color: white;
+	margin-left: 1%;
+	cursor: pointer;
+}
+main {
+	padding: 0 10%;
+	margin-top: 5%;
+}
+.last{
+	text-align: center;
+	border: 1px solid #f0f0f0;
+	background: white;
+	font-size: 200%;
+	color: gray;
+	padding: 3% 0;
+}
+.right_icon {
+	float: right;
+	cursor: pointer;
+}
+.context {
+	margin-top: 20%;
+	text-align: center;
+	border: 1px solid #f0f0f0;
+	background: white;
+}
+.title {
+	color: #fbb435;
+	text-align: center;
+	border: 1px solid #f0f0f0;
+	background: white;
+	font-size: 200%;
+	padding: 3% 0;
+	margin-bottom: 8%;
+}
+.choose {
+	background: #69d1e9;
+	border: 1px solid #f0f0f0;
+	font-size: 200%;
+	padding: 3% 0;
+	color: white;
+	margin: 3% 0;
+}
+.num {
+	color: gray;
+}
+.pick {
+	padding: 0 10%;
+}
+footer {
+	text-align: center;
+	margin: 5% 0;
+}
+.blue_point {
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	border: 1px solid #69d1e9;
+	background: #69d1e9;
+	border-radius: 10px;
+}
+.gray_point {
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	border: 1px solid gray;
+	background: gray;
+	border-radius: 10px;
+}
