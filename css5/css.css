@@ -7,18 +7,16 @@ body {
 	color: white;
 	text-align: center;
 	width: 100%;
+	padding-top: 0.7%;
 }
 span {
 	float: left;
-	font-size: 200%;
 	cursor: pointer;
 }
 .personal {
 	display: inline-block;
 	cursor: default;
 }
-.footer {
-	}
 .btn1 {
 	position: fixed;
 	bottom: 0;
@@ -49,10 +47,6 @@ span {
 .introduce {
 	background:url(back.jpg) no-repeat;
 	background-size: 100%;
-	min-height: ;
-
-}
-.holder {
 
 }
 .jiang {
@@ -74,10 +68,6 @@ p {
 .jiang_in {
 	vertical-align: middle;
 }
-.position_img {
-	display: inline-block;
-	vertical-align: middle;
-}
 .position {
 	display: inline-block;
 	vertical-align: middle;
@@ -94,15 +84,23 @@ p {
 	margin-right: 10%;
 	font-size: 95%;
 }
-.label {
+.labels {
 	color: gray;
 	margin: 3%;
 	margin-bottom: 5%;
 	display: inline-block;
+	text-decoration: underline;
 }
 .answer {
 	display: inline;
+	text-decoration: underline;
 }
 .red {
 	color: red;
+}
+i{
+	display: inline-block;
+}
+.per {
+	font-size: 200%;
 }
