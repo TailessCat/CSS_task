@@ -1,0 +1,145 @@
+body {
+	font-family: "Microsoft YaHei";
+}
+header {
+	text-align: center;
+	position: fixed top;
+	width: 100%;
+	z-index: 1;
+}
+.find {
+	background: #5fc0cd;
+	padding: 2% 0;
+	top: 0;
+}
+.find_er {
+	background: #55a8b3;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	width: 20%;
+	border: 1px solid #55a8b3;
+	border-radius: 5px;
+	padding: 0.5% 0;
+	margin-left: 13%;
+	cursor: pointer;
+}
+.find_ee {
+	background: white;
+	color: #5fc0cd;
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 0.5% 0;
+	cursor: pointer;
+	margin-left: -15px;
+
+}
+.find_img {
+	cursor: pointer;
+	float: right;
+}
+.img1 {
+	width: 50%;
+}
+.introduce {
+	background: white;
+
+}
+.local {
+	border: 1px solid #e2eaec;
+	color: gray;
+	padding: 1.1% 0;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.accommodate {
+	border: 1px solid #e2eaec;
+	color: gray;
+	padding: 1.1% 0;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.situation {
+	border: 1px solid #e2eaec;
+	color: gray;
+	padding: 1.1% 0;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.down {
+	float: right;
+	margin-right: 1%;
+}
+main {
+	cursor: default;
+	width: 100%;
+}
+.title {
+	color: gray;
+}
+.date {
+	display: inline-block;
+}
+.right {
+	float: right;
+	color: #5fc0cd;
+	margin-left: 1%;
+	cursor: pointer;
+}
+.price {
+	float: right;
+	color: red;
+}
+
+.position {
+	color: gray;
+}
+footer {
+	background: white;
+	text-align: center;
+	position: fixed bottom;
+	text-align: center;
+	width: 100%;
+	border: 1px solid #e2eaec;
+	max-height: 18%;
+	z-index: 1;
+}
+.home {
+	display: inline-block;
+	color: #55a8b3;
+	margin-top: 3%;
+	cursor: pointer;
+}
+.comment {
+	border: 1px solid #55a8b3;
+	border-radius: 100%;
+	display: inline-block;
+	width: 6em;
+	height: 6em;
+	margin: 0 20%;
+	text-align: center;
+	vertical-align: middle;
+	background: #5fc0cd;
+	margin-bottom: 1%;
+	margin-top: -5%;
+	cursor: pointer;
+}
+.me {
+	display: inline-block;
+	color: gray;
+	cursor: pointer;
+}
+.img3 {
+	margin-top: 17%;
+	margin-left: 5%;
+}
+.context {
+	border: 1px solid #e2eaec;
+}
+.holder {
+	min-height: 18%;
+	max-height: 18%;
+}
