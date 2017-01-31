@@ -4,10 +4,28 @@
 	font-family: "Microsoft YaHei";
 	cursor: default;
 }
+.right {
+	float: right;
+	padding-top: 3%;
+}
+.inline_block {
+	display: inline-block;
+	padding: 5% 0;
+}
+.menu {
+	margin-top: -1%;
+	background: white;
+	color: #29bde0;
+	width: 20%;
+	float: left;
+}
+.menu:hover {
+}
 header {
 	background: #29bde0;
 	padding: 1% 0;
 	position: fixed top;
+
 }
 .white {
 	color: white;
@@ -52,6 +70,7 @@ main {
 	padding: 3% 0;
 	color: white;
 	margin: 3% 0;
+	cursor: pointer;
 }
 .num {
 	color: gray;
@@ -79,3 +98,20 @@ footer {
 	background: gray;
 	border-radius: 10px;
 }
+.go:link {
+	color: white;
+	text-decoration: none;
+}
+.go:visited {
+	color: white;
+	text-decoration: none;
+}
+.go:hover {
+	color: white;
+	text-decoration: none;
+}
+.go:active {
+	color: white;
+	text-decoration: none;
+}
+
