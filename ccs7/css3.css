@@ -1,0 +1,101 @@
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.bigger {
+	font-size: 200%;
+}
+.point {
+	cursor: pointer;
+}
+.white {
+	color: white;
+}
+.space {
+	padding-bottom: 1%;
+}
+.gray {
+	color: gray;
+}
+.mybody {
+	font-family: "Microsoft YaHei";
+	cursor: default;
+}
+.back:link {
+	color: white;
+	text-decoration: none;
+}
+.back:visited {
+	color: white;
+	text-decoration: none;
+}
+.back:hover {
+	color: white;
+	text-decoration: none;
+}
+.back:active {
+	color: white;
+	text-decoration: none;
+}
+header {
+	background: #29bde0;
+	padding: 1% 0;
+	position: fixed top;
+	text-align: center;
+	font-size: 200%;
+	color: white;
+	width: 100%;
+}
+.title {
+	display: inline-block;
+}
+main {
+	text-align: center;
+	background:  #29bde0;
+	margin-bottom: 30px;
+}
+.study{
+	margin: 5% 0;
+	color: #cbc586;
+}
+.result {
+	background: white;
+	text-align: left;
+	padding-left: 5%;
+	border: 1px solid gray;
+}
+footer {
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+.restart {
+	min-width: 30%;
+	height: 30px;
+	border: 1px solid #f66f6f;
+	border-radius: 5px;
+	background: #f66f6f;
+	padding-top: 5px;
+	color: white;
+	float: left;
+	bottom: 0;
+	margin-left: 5%;
+}
+.share {
+	min-width:30%;
+	height: 30px;
+	border: 1px solid #fbb435;
+	border-radius: 5px;
+	background: #fbb435;
+	padding-top: 5px;
+	color: white;
+	float: right;
+	bottom: 0;
+	margin-right: 5%;
+}
+img {
+	max-width: 100%
+}

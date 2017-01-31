@@ -1,0 +1,101 @@
+.mybody {
+	background: #29bde0;
+	font-family: "Microsoft YaHei";
+	cursor: default;
+}
+header {
+	background: #29bde0;
+	padding: 1% 0;
+	position: fixed top;
+	text-align: center;
+	font-size: 200%;
+	color: white;
+	width: 100%;
+}
+.vote_head {
+	display: inline-block;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.introduce {
+	background: #b9e9f5;
+	padding: 1% 0;
+	vertical-align: middle;
+}
+.bigger {
+	font-size: 200%;
+}
+.point {
+	cursor: pointer;
+}
+.triangle {
+	width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 30px solid #b9e9f5;
+    margin-left: 5%;
+}
+.intro_words {
+	color: #b9e9f5;
+	margin-left: 5%;
+}
+.back:link {
+	color: white;
+	text-decoration: none;
+}
+.back:visited {
+	color: white;
+	text-decoration: none;
+}
+.back:hover {
+	color: white;
+	text-decoration: none;
+}
+.back:active {
+	color: white;
+	text-decoration: none;
+}
+audio {
+	max-width: 20%;
+	margin-top: -8px;
+}
+.id {
+	background: #f5c97b;
+	height: 50px;
+	text-align: center;
+	padding:15px 0;   
+
+}
+.num {
+	background: #83b09a;
+	color: white;
+	height: 20px;
+	text-align: center;
+}
+.player {
+	margin: 1% 0;
+}
+footer {
+	margin-top: 45px;
+}
+.vote {
+	text-align: center;
+	border: 1px solid #fbb435;
+	background: #fbb435;
+	color: white;
+	border-radius: 5px;
+	position: fixed;
+	bottom: 0;
+	z-index: 1;
+	width: 30%;
+	font-size: 200%;
+	margin: auto;
+	height: 45px;
+	left:0;
+	right:0;
+}
