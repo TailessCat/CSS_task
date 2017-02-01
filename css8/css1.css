@@ -1,0 +1,88 @@
+.pointer {
+	cursor: pointer;
+}
+.inline_block {
+	display: inline-block;
+}
+.white {
+	color: white;
+}
+.gray {
+	color: gray;
+}
+.green {
+	color: #29b078;
+}
+.bigger {
+	font-size: 200%;
+}
+.center {
+	text-align: center;
+}
+.mybody {
+	font-family: "Microsoft YaHei";
+	max-width: 1900px;
+}
+header {
+	color: #29b078;
+}
+img {
+	max-width: 100%;
+}
+.tel {
+	margin: 0.5% 20%;
+}
+.first_icons {
+	margin: 0.5% 0%;
+}
+.myright {
+	float: right;
+}
+.myleft {
+	float: left;
+}
+.nav {
+	text-align: center;
+	background: #29b078;
+	color: white;
+}
+.choose {
+	margin: 0 0.5%;
+	padding: 13px;
+	height: 50px;
+}
+.incomes {
+	text-align: center;
+}
+.students_num {
+	margin-top: 2%;
+}
+.how {
+	margin: 5% 0;
+}
+.num {
+	border: 1px solid #29b078;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	margin-right: 5%;
+	padding-top: 0.5%;
+}
+.right_icon {
+	margin-top: 3.5%;
+}
+.master {
+	border-radius: 100%;
+	width: 50%;
+}
+footer {
+	background: #26a26f;
+	padding-top: 1%;
+	text-align: center;
+}
+.about {
+	margin-top: 15%;
+}
+.myweb {
+}
