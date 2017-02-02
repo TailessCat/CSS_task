@@ -27,7 +27,7 @@ header {
 	color: #29b078;
 }
 img {
-	max-width: 100%;
+	max-width: 120%;
 }
 .tel {
 	margin: 0.5% 20%;
@@ -83,6 +83,4 @@ footer {
 }
 .about {
 	margin-top: 15%;
-}
-.myweb {
 }

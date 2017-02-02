@@ -1,0 +1,95 @@
+.pointer {
+	cursor: pointer;
+}
+.inline_block {
+	display: inline-block;
+}
+.text_left {
+	text-align: left;
+}
+.white {
+	color: white;
+}
+.back_white {
+	background: white;
+}
+.gray {
+	color: gray;
+}
+.red {
+	color: red;
+}
+.green {
+	color: #29b078;
+}
+.orange {
+	color: orange;
+}
+.bigger {
+	font-size: 200%;
+}
+.center {
+	text-align: center;
+}
+.black {
+	color: black;
+}
+.mybody {
+	font-family: "Microsoft YaHei";
+	max-width: 1800px;
+	background: #fafafa;
+}
+header {
+	color: #29b078;
+}
+img {
+	max-width: 100%;
+}
+.myright {
+	float: right;
+}
+.myleft {
+	float: left;
+}
+footer {
+	background: #26a26f;
+	padding-top: 1%;
+	text-align: center;
+}
+.about {
+	margin-top: 15%;
+}
+
+.choose {
+	margin: 0 0.5%;
+	padding: 13px;
+	height: 50px;
+}
+.border {
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+.nav {
+	text-align: center;
+	background: #29b078;
+	color: white;
+}
+.row_space {
+	margin: 0 1%;
+}
+.all {
+	background: #29b078;
+	color: white;
+}
+.how {
+	margin: 5% 0;
+}
+.head_portrait {
+	width: 15%;
+}
+.price_space {
+	padding:10% 0;
+}
+.people {
+	margin: 3% 3%;
+}
