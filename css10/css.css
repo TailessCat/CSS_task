@@ -1,0 +1,111 @@
+.pointer {
+	cursor: pointer;
+}
+.inline_block {
+	display: inline-block;
+}
+.text_left {
+	text-align: left;
+}
+.white {
+	color: white;
+}
+.blue {
+	color: blue;
+}
+.back_white {
+	background: white;
+}
+.gray {
+	color: gray;
+}
+.green {
+	color: #29b078;
+}
+.orange {
+	color: orange;
+}
+.bigger {
+	font-size: 200%;
+}
+.center {
+	text-align: center;
+}
+.black {
+	color: black;
+}
+.myright {
+	float: right;
+}
+.mybody {
+	font-family: "Microsoft YaHei";
+	max-width: 1800px;
+	background: #fafafa;
+}
+header {
+	background: #1d7ad9;
+	padding: 1% 0 0.5% 0;
+}
+.line {
+	cursor: default;
+	width: 15%;
+	background: gray;
+	height: 3px;
+	margin: 0 -0.5%;
+}
+.border {
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+.circle {
+	width: 15px;
+	height: 15px;
+	background: gray;
+	color: white;
+	border-radius: 100%;
+	font-size: 80%;
+	float: right;
+	margin-top: -5px;
+	margin-right: 42%;
+}
+.back_orange {
+	background: orange;
+}
+.div_space {
+	margin: 1% 0;
+}
+.introduce {
+	margin: 3% 0;
+}
+footer {
+	background: white;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	z-index: 1;
+	padding-top: 1%;
+}
+.shape {
+	padding: 1% 0;
+	padding-left: 2%;
+}
+.check {
+	margin-right: 5%;
+	padding: 0.5%;
+}
+.size {
+	margin:  0;
+}
+.check2 {
+	margin-right: 5%;
+	padding: 0.5%;
+	margin-top: -1.2%;
+}
+.holder {
+	margin-bottom: 10%;
+}
+.back_blue {
+	background: #1d7ad9;
+	color: white;
+	width: 100%;
+}
