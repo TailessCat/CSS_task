@@ -1,0 +1,90 @@
+.mybody {
+    font-size: 150%;
+    font-family: "Microsoft YaHei";
+    background: #fff
+}
+
+.mybody img {
+    max-width: 100%
+}
+
+.mybody header {
+    color: #fff;
+    background: #29bde0;
+    padding-top: 1%
+}
+
+.mybody header .back_icon {
+    cursor: pointer
+}
+
+.mybody main .title {
+    background: url(back.jpg) no-repeat;
+    background-size: 100%;
+    padding: 3% 0;
+    color: #000;
+    margin-bottom: 5%
+}
+
+.mybody main .title .photo {
+    border-radius: 100%
+}
+
+.mybody main .title .message {
+    margin-top: 10%
+}
+
+.mybody main .title .message .map_marker {
+    color: #29bde0
+}
+
+.mybody main .introduce .red_color {
+    color: red
+}
+
+.mybody main .introduce .gray_color {
+    color: gray
+}
+
+.mybody main .introduce * {
+    margin: 1% 0
+}
+
+@media (max-width:1000px) {
+    .mybody main .introduce * {
+        margin: 3% 0
+    }
+}
+
+.mybody footer {
+    margin-top: 10%;
+    position: fixed bottom;
+    z-index: 1;
+    background: #fff;
+    padding-bottom: 1%;
+    width: 100%
+}
+
+@media (max-width:1000px) {
+    .mybody footer {
+        margin-top: 20%
+    }
+}
+
+.mybody footer .btn1 {
+    background: #fff;
+    color: #29bde0;
+    padding: 1%;
+    border-radius: 5px;
+    border: #29bde0 solid 1px;
+    margin-bottom: 8%
+}
+
+.mybody footer .btn2 {
+    background: #29bde0;
+    color: #fff;
+    padding: 1%;
+    border-radius: 5px;
+    border: #29bde0 solid 1px;
+    margin-bottom: 8%
+}

@@ -1,0 +1,91 @@
+@body_background: white;
+@body_font_family: "Microsoft YaHei";
+@header_background: #29bde0;
+@header_color: white;
+@title_background_img: "back.jpg";
+@title_color: black;
+@map_marker_color: #29bde0;
+@red_color: red;
+@gray_color: gray;
+@btn1_background: white;
+@btn1_color: #29bde0;
+@btn2_background: #29bde0;
+@btn2_color: white;
+.mybody {
+    font-size: 150%;
+    font-family: @body_font_family;
+    background: @body_background;
+    img {
+        max-width: 100%;
+    }
+    header {
+        color: @header_color;
+        background: @header_background;
+        padding-top: 1%;
+        .back_icon {
+            cursor: pointer;
+        }
+    }
+    main {
+        .title {
+            background: url(@title_background_img) no-repeat;
+            background-size: 100%;
+            padding: 3% 0;
+            color: @title_color;
+            margin-bottom: 5%;
+            .photo {
+                border-radius: 100%;
+            }
+            .message {
+                margin-top: 10%;
+                .map_marker {
+                    color: @map_marker_color;
+                }
+            }
+        }
+        .introduce {
+        	.red_color {
+        		color: @red_color;
+        	}
+        	.gray_color {
+        		color: @gray_color;
+        	}
+        	* {
+        		margin: 1% 0;
+        		@media (max-width: 1000px) {
+        			margin: 3% 0;
+        		}
+        	}
+        }
+    }
+
+    footer {
+    	margin-top: 10%;
+    	@media (max-width: 1000px) {
+    		margin-top: 20%;
+    	}
+    	position: fixed bottom;
+    	z-index: 1;
+    	background: white;
+    	padding-bottom: 1%;
+    	width: 100%;
+
+    	.btn1 {
+    		background: @btn1_background;
+    		color: @btn1_color;
+    		padding: 1%;
+    		border-radius: 5px;
+    		border: #29bde0 solid 1px;
+    		margin-bottom: 8%;
+    	}
+
+    	.btn2 {
+    		background: @btn2_background;
+    		color: @btn2_color;
+    		padding: 1%;
+    		border-radius: 5px;
+    		border: #29bde0 solid 1px;
+    		margin-bottom: 8%;
+    	}
+    }
+}
