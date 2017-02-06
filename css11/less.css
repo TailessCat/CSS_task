@@ -1,70 +1,83 @@
 body {
-  background: #fafafa;
-  font-family: "Microsoft YaHei";
+    background: #fafafa;
+    font-family: "Microsoft YaHei"
 }
+
 header {
-  padding-top: 1%;
-  background: #5fc0cd;
-  color: #ffffff;
-  margin-bottom: 5%;
+    padding-top: 1%;
+    background: #5fc0cd;
+    color: #fff;
+    margin-bottom: 5%
 }
+
 main {
-  margin: 5% 0;
-  margin-bottom: 20%;
-  text-align: center;
+    margin: 5% 0;
+    margin-bottom: 20%;
+    text-align: center
 }
+
 main .input_icon_color {
-  color: #808080;
-  cursor: pointer;
+    color: gray;
+    cursor: pointer
 }
+
 main input {
-  margin: 0.5% 0;
+    margin: .5% 0
 }
+
 main .enter {
-  margin-top: 5%;
-  text-align: center;
+    margin-top: 5%;
+    text-align: center
 }
+
 main .enter button {
-  background: #5fc0cd;
-  color: #ffffff;
-  border: 1px solid #5fc0cd;
-  border-radius: 5px;
-  margin-bottom: 0.5%;
+    background: #5fc0cd;
+    color: #fff;
+    border: 1px solid #5fc0cd;
+    border-radius: 5px;
+    margin-bottom: .5%
 }
+
 main .enter .sign .sign_up {
-  color: #808080;
-  font-size: 85%;
-  cursor: pointer;
+    color: gray;
+    font-size: 85%;
+    cursor: pointer
 }
+
 main .enter .sign .sign_in {
-  color: #808080;
-  font-size: 85%;
-  cursor: pointer;
+    color: gray;
+    font-size: 85%;
+    cursor: pointer
 }
+
 footer {
-  padding-bottom: 3%;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-  bottom: 0;
-  text-align: center;
+    padding-bottom: 10%;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    bottom: 0;
+    text-align: center
 }
+
 footer .the_thrid_party {
-  color: #808080;
-  font-size: 85%;
+    color: gray;
+    font-size: 85%
 }
+
 footer .weixin {
-  color: #008000;
-  cursor: pointer;
-  font-size: 150%;
+    color: green;
+    cursor: pointer;
+    font-size: 150%
 }
+
 footer .weibo {
-  color: #ff0000;
-  cursor: pointer;
-  font-size: 150%;
+    color: red;
+    cursor: pointer;
+    font-size: 150%
 }
+
 footer .qq {
-  color: #5fc0cd;
-  cursor: pointer;
-  font-size: 150%;
+    color: #5fc0cd;
+    cursor: pointer;
+    font-size: 150%
 }

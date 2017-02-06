@@ -1,91 +1,93 @@
-@body_background:#fafafa;
-@body_font_family:"Microsoft YaHei";
-@header_background_color:#5fc0cd;
-@header_color:white;
-@input_icon_color:gray;
-@button_background:#5fc0cd;
-@button_color:white;
-@button_border:1px solid #5fc0cd;
-@button_bb:5px;
-@button_width:30%;
-@sign_color:gray;
-@sign_font_size:85%;
-@the_thrid_party_color:gray;
-@the_thrid_party_font_size:85%;
-@weixin_color:green;
-@weibo_color:red;
-@qq_color:#5fc0cd;
-@contact_icon_font_size:150%;
+@body_background: #fafafa;
+@body_font_family: "Microsoft YaHei";
+@header_background_color: #5fc0cd;
+@header_color: white;
+@input_icon_color: gray;
+@button_background: #5fc0cd;
+@button_color: white;
+@button_border: 1px solid #5fc0cd;
+@button_bb: 5px;
+@button_width: 30%;
+@sign_color: gray;
+@sign_font_size: 85%;
+@the_thrid_party_color: gray;
+@the_thrid_party_font_size: 85%;
+@weixin_color: green;
+@weibo_color: red;
+@qq_color: #5fc0cd;
+@contact_icon_font_size: 150%;
 body {
-	background: @body_background;
-	font-family: @body_font_family;
+    background: @body_background;
+    font-family: @body_font_family;
 }
+
 header {
-	padding-top: 1%;
-	background: @header_background_color;
-	color: @header_color;
-	margin-bottom: 5%;
+    padding-top: 1%;
+    background: @header_background_color;
+    color: @header_color;
+    margin-bottom: 5%;
 }
+
 main {
-	margin: 5% 0;
-	margin-bottom: 20%;
-	text-align: center;
-	.input_icon_color {
-		color: @input_icon_color;
-		cursor: pointer;
-	}
-	input{
-		margin: 0.5% 0;
-	}
-	.enter {
-		margin-top: 5%;
-		text-align: center;
-		button {
-			background: @button_background;
-			color: @button_color;
-			border: @button_border;
-			border-radius: @button_bb;
-			margin-bottom: 0.5%;
-		}
-		.sign {
-			.sign_up {
-			color: @sign_color;
-			font-size: @sign_font_size;
-			cursor: pointer;
-			}
-			.sign_in {
-				color: @sign_color;
-				font-size: @sign_font_size;
-				cursor: pointer;
-			}
-		}
-	}
-	
+    margin: 5% 0;
+    margin-bottom: 20%;
+    text-align: center;
+    .input_icon_color {
+        color: @input_icon_color;
+        cursor: pointer;
+    }
+    input {
+        margin: 0.5% 0;
+    }
+    .enter {
+        margin-top: 5%;
+        text-align: center;
+        button {
+            background: @button_background;
+            color: @button_color;
+            border: @button_border;
+            border-radius: @button_bb;
+            margin-bottom: 0.5%;
+        }
+        .sign {
+            .sign_up {
+                color: @sign_color;
+                font-size: @sign_font_size;
+                cursor: pointer;
+            }
+            .sign_in {
+                color: @sign_color;
+                font-size: @sign_font_size;
+                cursor: pointer;
+            }
+        }
+    }
 }
+
 footer {
-	padding-bottom: 3%;
-	position: fixed;
-	width: 100%;
-	z-index: 1;
-	bottom: 0;
-	text-align: center;
-	.the_thrid_party {
-		color: @the_thrid_party_color;
-		font-size: @the_thrid_party_font_size;
-	}
-	.weixin {
-		color: @weixin_color;
-		cursor: pointer;
-		font-size: @contact_icon_font_size;
-	}
-	.weibo {
-		color: @weibo_color;
-		cursor: pointer;
-		font-size: @contact_icon_font_size;
-	}
-	.qq {
-		color: @qq_color;
-		cursor: pointer;
-		font-size: @contact_icon_font_size;
-	}
+    padding-bottom: 10%;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    bottom: 0;
+    text-align: center;
+    .the_thrid_party {
+        color: @the_thrid_party_color;
+        font-size: @the_thrid_party_font_size;
+    }
+    .weixin {
+        color: @weixin_color;
+        cursor: pointer;
+        font-size: @contact_icon_font_size;
+    }
+    .weibo {
+        color: @weibo_color;
+        cursor: pointer;
+        font-size: @contact_icon_font_size;
+    }
+    .qq {
+        color: @qq_color;
+        cursor: pointer;
+        font-size: @contact_icon_font_size;
+    }
 }
