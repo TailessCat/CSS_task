@@ -7,13 +7,19 @@ header {
     padding-top: 1%;
     background: #5fc0cd;
     color: #fff;
-    margin-bottom: 5%
+    margin-bottom: 15%
 }
 
 main {
-    margin: 5% 0;
+    margin: 5% auto;
     margin-bottom: 20%;
     text-align: center
+}
+
+@media (min-width:768px) {
+    main {
+        margin-bottom: 5%
+    }
 }
 
 main .input_icon_color {
@@ -26,6 +32,7 @@ main input {
 }
 
 main .enter {
+    margin: 0 auto;
     margin-top: 5%;
     text-align: center
 }
@@ -35,7 +42,15 @@ main .enter button {
     color: #fff;
     border: 1px solid #5fc0cd;
     border-radius: 5px;
-    margin-bottom: .5%
+    margin-bottom: .5%;
+    outline: 0
+}
+
+@media screen and (min-width:768px) {
+    main .enter button {
+        margin-left: 46%;
+        margin-top: -3%
+    }
 }
 
 main .enter .sign .sign_up {
@@ -59,6 +74,14 @@ footer {
     text-align: center
 }
 
+@media (min-width:768px) {
+    footer {
+        position: static;
+        padding-left: 3%;
+        padding-bottom: 0
+    }
+}
+
 footer .the_thrid_party {
     color: gray;
     font-size: 85%
@@ -68,6 +91,12 @@ footer .weixin {
     color: green;
     cursor: pointer;
     font-size: 150%
+}
+
+@media (min-width:768px) {
+    footer .weixin {
+        margin-left: 38%
+    }
 }
 
 footer .weibo {

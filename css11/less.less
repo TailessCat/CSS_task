@@ -25,12 +25,15 @@ header {
     padding-top: 1%;
     background: @header_background_color;
     color: @header_color;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
 }
 
 main {
-    margin: 5% 0;
+    margin: 5% auto;
     margin-bottom: 20%;
+    @media (min-width: 768px) {
+        margin-bottom: 5%;
+    }
     text-align: center;
     .input_icon_color {
         color: @input_icon_color;
@@ -40,6 +43,7 @@ main {
         margin: 0.5% 0;
     }
     .enter {
+        margin: 0 auto;
         margin-top: 5%;
         text-align: center;
         button {
@@ -48,6 +52,11 @@ main {
             border: @button_border;
             border-radius: @button_bb;
             margin-bottom: 0.5%;
+            outline: none;
+            @media screen and(min-width: 768px) {
+                margin-left: 46%;
+                margin-top: -3%;
+            }
         }
         .sign {
             .sign_up {
@@ -70,12 +79,20 @@ footer {
     width: 100%;
     z-index: 1;
     bottom: 0;
+    @media (min-width: 768px) {
+        position: static;
+        padding-left: 3%;
+        padding-bottom: 0;
+    }
     text-align: center;
     .the_thrid_party {
         color: @the_thrid_party_color;
         font-size: @the_thrid_party_font_size;
     }
     .weixin {
+        @media (min-width: 768px) {
+            margin-left: 38%;
+        }
         color: @weixin_color;
         cursor: pointer;
         font-size: @contact_icon_font_size;
