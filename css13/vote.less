@@ -1,0 +1,84 @@
+@body-background: #69d1e9;
+@font-family: "Microsoft YaHei";
+@player-background: #f5c97b;
+@num-background: #83b09a;
+body {
+    background: @body-background;
+    font-family: @font-family;
+}
+
+header {
+    padding: 1%;
+    @media (max-width: 1024px) {
+        padding: 3%;
+    }
+}
+
+audio {
+    max-width: 30%;
+    padding: 1.5% 0;
+}
+
+.title {
+    p {
+        padding: 2%;
+        @media (max-width: 1024px) {
+            padding: 4%;
+        }
+    }
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 40px solid #b9e9f5;
+    @media (max-width: 1024px) {
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 20px solid #b9e9f5;
+    }
+}
+
+.player {
+    background: @player-background;
+    padding: 30% 0;
+}
+
+.num {
+    background: @num-background;
+}
+
+.grid {
+    margin: 5%;
+    width: 10%;
+    @media (max-width: 1024px) {
+        width: 20%;
+    }
+}
+
+button {
+    background: #fbb435;
+    border: 1px solid #fbb435;
+    border-radius: 5px;
+    width: 15%;
+    padding: 1% 0;
+    @media (max-width: 1024px) {
+        padding: 2% 0;
+        width: 80%;
+    }
+}
+
+footer {
+    margin-top: 15%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1% 0;
+    @media (max-width: 1024px) {
+        padding: 2% 0;
+    }
+}

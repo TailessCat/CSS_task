@@ -1,0 +1,99 @@
+body {
+    background: #29bde0;
+    font-family: "Microsoft YaHei"
+}
+
+img {
+    max-width: 100%
+}
+
+main {
+    margin: 0 auto;
+    width: 40%
+}
+
+@media (max-width:1024px) {
+    main {
+        width: 70%
+    }
+}
+
+.encourage {
+    margin-bottom: 5%
+}
+
+@media (max-width:1024px) {
+    .encourage {
+        margin-bottom: 10%
+    }
+}
+
+.encourage p {
+    margin: 1% auto
+}
+
+.statistics {
+    margin-bottom: 5%
+}
+
+@media (max-width:1024px) {
+    .statistics {
+        margin-bottom: 10%
+    }
+}
+
+.statistics p {
+    margin: 2% 3% 2% 0
+}
+
+.words {
+    margin-bottom: 5%
+}
+
+@media (max-width:1024px) {
+    .words {
+        margin-bottom: 10%
+    }
+}
+
+.words p {
+    margin: 2% 0
+}
+
+footer {
+    padding: 2% 5%
+}
+
+footer p {
+    margin: 2% 0
+}
+
+.day {
+    padding: 1% 0;
+    box-shadow: 0 1px gray
+}
+
+button {
+    margin: 0 3%;
+    width: 10%;
+    padding: .5%
+}
+
+@media (max-width:1024px) {
+    button {
+        width: 40%;
+        padding: 1%
+    }
+}
+
+.btn1 {
+    border: 1px solid #f66f6f;
+    border-radius: 5px;
+    background: #f66f6f
+}
+
+.btn2 {
+    background: #fbb435;
+    border-radius: 5px;
+    border: 1px solid #fbb435
+}

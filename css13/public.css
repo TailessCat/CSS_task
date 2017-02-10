@@ -1,0 +1,101 @@
+.blue {
+    color: #69d1e9;
+}
+
+.blue-background {
+    background: #69d1e9;
+}
+.blue-green-background {
+	background: #b9e9f5;
+}
+
+.orange {
+    color: #f9ba48;
+}
+
+.orange-background {
+    background: #f9ba48;
+}
+
+.gray {
+    color: gray;
+}
+
+.gray-background {
+    background: gray;
+}
+
+.white {
+    color: white;
+}
+
+.white-background {
+    background: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.auto-margin {
+    margin: 0 auto;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.white-boder {
+    border: 1px solid white;
+}
+
+.blue-border {
+    border: 1px solid #69d1e9;
+}
+
+.font-size-80 {
+    font-size: 80%;
+}
+.font-size-200 {
+	font-size: 200%;
+}
+.clear {
+	clear: both;
+}
+.inline-block {
+	display: inline-block;
+}
+.inline {
+	display: inline;
+}
+.ml5 {
+	
+	margin-left: 5%;
+}
+.mt-2 {
+margin-top: -2%;
+}
+a:link {
+	color: white;
+	text-decoration: none;
+}
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+a:active {
+	color: white;
+	text-decoration: none;
+}
