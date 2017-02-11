@@ -9,6 +9,14 @@
 	background: #b9e9f5;
 }
 
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
 .orange {
     color: #f9ba48;
 }
@@ -31,6 +39,10 @@
 
 .white-background {
     background: white;
+}
+
+.white-border {
+    border: 3px solid white;
 }
 
 .center {

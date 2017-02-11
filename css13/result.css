@@ -3,6 +3,12 @@ body {
     font-family: "Microsoft YaHei"
 }
 
+@media (min-width:768px) and (max-width:1024px) {
+    body {
+        font-size: 150%
+    }
+}
+
 img {
     max-width: 100%
 }
@@ -83,6 +89,12 @@ button {
     button {
         width: 40%;
         padding: 1%
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    button {
+        font-size: 150%
     }
 }
 

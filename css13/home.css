@@ -3,6 +3,12 @@ body {
     font-family: "Microsoft YaHei"
 }
 
+@media (min-width:768px) and (max-width:1024px) {
+    body {
+        font-size: 150%
+    }
+}
+
 header {
     padding: .5% 0 .5% 0
 }
