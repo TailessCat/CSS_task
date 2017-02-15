@@ -1,0 +1,55 @@
+body {
+    background: #fafafa
+}
+
+@media (max-width:1024px) {
+    body {
+        font-size: 150%
+    }
+}
+
+footer {
+    float: left;
+    clear: both
+}
+
+.companies {
+    float: left;
+    margin: 5% 0 0 5%;
+    padding: 3%;
+    width: 15%
+}
+
+@media (max-width:1024px) {
+    .companies {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 5% 0 5% 5%;
+        width: 70%
+    }
+}
+
+.companies div {
+    margin: 10% auto
+}
+
+.intro {
+    float: left;
+    color: gray;
+    margin: 5% 0 0 5%;
+    padding: 5% 10%;
+    width: 40%
+}
+
+@media (max-width:1024px) {
+    .intro {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 0;
+        width: 90%
+    }
+}
+
+.intro div {
+    margin: 10% auto
+}

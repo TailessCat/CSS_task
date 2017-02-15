@@ -1,0 +1,123 @@
+.nav {
+    text-align: center;
+    background: #29b078;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    margin: 5% 0;
+    font-size: 200%;
+}
+
+.simple-intro {
+    display: inline-block;
+    text-align: center;
+}
+
+.goodness {
+    display: inline-block;
+    padding-right: 5%;
+}
+
+.goodness .num {
+    border: 1px solid #29b078;
+    border-radius: 100%;
+    height: 1.5em;
+    width: 1.5em;
+    text-align: center;
+    margin-right: 5%;
+    padding-top: 0;
+    display: inline-block;
+    font-size: 200%;
+    color: green;
+}
+
+.goodness .words {
+    display: inline-block;
+    color: gray;
+    margin-left: -3%;
+}
+
+.goodness i {
+    float: right;
+    color: #29b078;
+    margin-top: -10%;
+    padding-left: 10%;
+    @media (max-width: 1024px) {
+        padding-left: 15%;
+    }
+}
+
+.student {
+    display: inline-block;
+    text-align: center;
+}
+
+.footer {
+    background: #26a26f;
+    padding-top: 1%;
+    color: white;
+}
+.job {
+    display: inline-block;
+    margin: 2% 5.5%;
+}
+
+.job img {
+    width: 20%;
+    float: left;
+}
+.job .name {
+	display: inline-block;
+}
+
+.job .responsibilities {
+	display: block;
+	margin-top: 7%;
+	margin-left: 20%;
+}
+.job .job-intros {
+	display: block;
+}
+.job .job-intro {
+	display: inline-block;
+	margin: 2% 20% 2% 0;
+}
+.job .job-intro * {
+	display: inline-block;
+}
+.job .job-intro i {
+	color: orange;
+}
+.job .treatment {
+	display: block;
+}
+.job .treatment-title {
+	float: left;
+	margin-top: 10%;
+}
+.job .treatment .level {
+	max-width:25%; 
+	display: inline-block;
+	margin-left: 10%;
+}
+.job .treatment .pay {
+	max-width:25%; 
+	display: inline-block;
+	margin-left: 10%;
+}
+@media(max-width:1024px) {
+    body {
+        font-size: 200%;
+    }
+    .job img {
+    	width: 30%;
+    }
+    .job .responsibilities {
+    	margin-top: 8%;
+    }
+    .job .treatment-title {
+    	margin-top: 20%;
+    }
+}
