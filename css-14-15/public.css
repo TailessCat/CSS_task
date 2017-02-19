@@ -244,10 +244,19 @@ footer .about {
 }
 
 .job {
+    border: 1px solid gray;
+    border-radius: 5px;
+    paddings: 1%;
     float: left;
     width: 25%;
-    margin: 2%;
+    margin: 1%;
     margin-left: 5%
+}
+
+@media (max-width:1024px) {
+    .job {
+        width: 90%
+    }
 }
 
 .job img {
